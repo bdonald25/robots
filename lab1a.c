@@ -2,7 +2,6 @@
 
 int main() 
 {
-	printf("Hello, World!\n");
 	while(1)
 	{
 		int isPressed = digital(15);
