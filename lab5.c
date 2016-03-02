@@ -8,7 +8,6 @@ void moveFarRight();
 
 const int sensor_positions[5] = {2047, 1745, 1448, 1174, 900};
 
-
 int main() 
 {
 	set_each_analog_state(0,1,0,0,0,0,0,0);
@@ -73,7 +72,6 @@ void loop()
 	
 	return;
 }
-
 
 void moveFarLeft() {
 	move_at_velocity(0, 500); // Right wheel
